@@ -1,0 +1,57 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.14",
+    "version": "1.0.1",
+    "id": "ae2de7b9-6643-487c-ab2c-d84d63da2bda",
+    "packageName": "com.teams.bonsen.echo_bot",
+    "developer": {
+      "name": "Ammar Khatri",
+      "websiteUrl": "https://bonsen.ai",
+      "privacyUrl": "https://bonsen.ai/privacy",
+      "termsOfUseUrl": "https://bonsen.ai/termsofuser"
+    },
+    "icons": {
+      "outline": "outline.png",
+      "color": "custom_logo.jpeg"
+    },
+    "name": {
+      "short": "Echo Bot",
+      "full": "Echo Bot"
+    },
+    "description": {
+      "short": "Echo Bot",
+      "full": "Echo Bot"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+      {
+        "botId": "e2452ae4-80a2-43f1-bdac-6de7dc7373bd",
+        "scopes": [
+          "personal",
+          "groupchat",
+          "team"
+        ],
+        "isNotificationOnly": false,
+        "supportsCalling": false,
+        "supportsVideo": false,
+        "supportsFiles": true,
+          "commandLists": [
+          {
+            "scopes": [
+              "personal",
+              "groupchat",
+              "team"
+            ],
+            "commands": []
+          }
+        ]
+      }
+    ],
+    "permissions": [
+      "identity",
+      "messageTeamMembers"
+    ],
+    "validDomains": [
+      "botecho-fjegeperbhe5azgz.eastus-01.azurewebsites.net.azurewebsites.net"
+    ]
+  }
